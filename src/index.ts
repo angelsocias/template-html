@@ -9,118 +9,118 @@ export default {
     <meta name="supported-color-schemes" content="light dark">
     <title></title>
     <style type="text/css" rel="stylesheet" media="all">
-    @import url(&quot;https://fonts.googleapis.com/css?family&#x3D;Nunito+Sans:400,700&amp;display&#x3D;swap&quot;);
-
+    @import url(&quot;https://fonts.googleapis.com/css?family&#x3D;Lato:400,700&amp;display&#x3D;swap&quot;);
+    
     /* Base styles with Handlebars variables for email compatibility */
     /* Email Styling & Generation powered by Supa-Tools.com */
-
+    
     body {
       width: 100% !important;
       height: 100%;
       margin: 0;
       -webkit-text-size-adjust: none;
-      background-color: #F2F4F6;
+      background-color: #fff7ed;
     }
-
+    
     a {
-      color: #6000C7;
+      color: #ea580c;
     }
-
+    
     a img {
       border: none;
     }
-
+    
     td {
       word-break: break-word;
     }
-
+    
     body,
     td,
     th {
-      font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+      font-family: "Lato", Helvetica, Arial, sans-serif;
     }
-
+    
     h1 {
       margin-top: 0;
-      color: #333333;
+      color: #1c1917;
       font-size: 22px;
       font-weight: bold;
       text-align: left;
     }
-
+    
     h2 {
       margin-top: 0;
-      color: #333333;
+      color: #1c1917;
       font-size: 20px;
       font-weight: bold;
       text-align: center;
     }
-
+    
     td,
     th {
       font-size: 16px;
     }
-
+    
     p {
       margin: .4em 0 1.1875em;
       font-size: 16px;
       line-height: 1.625;
-      color: #51545E;
+      color: #44403c;
     }
-
+    
     .button {
-      background-color: #6000C7 !important;
-      border-top: 10px solid #6000C7 !important;
-      border-right: 18px solid #6000C7 !important;
-      border-bottom: 10px solid #6000C7 !important;
-      border-left: 18px solid #6000C7 !important;
+      background-color: #ea580c !important;
+      border-top: 10px solid #ea580c !important;
+      border-right: 18px solid #ea580c !important;
+      border-bottom: 10px solid #ea580c !important;
+      border-left: 18px solid #ea580c !important;
       display: inline-block;
-      color: #FFFFFF !important;
+      color: #ffffff !important;
       text-decoration: none !important;
-      border-radius: 3px;
+      border-radius: 6px;
       box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
       -webkit-text-size-adjust: none;
       box-sizing: border-box;
       font-weight: bold;
     }
-
-
+    
+    
     .button:hover,
     .button:active,
     .button:visited,
     .button:focus,
     .button:link {
-      color: #FFFFFF !important;
+      color: #ffffff !important;
       text-decoration: none !important;
-      background-color: #6000C7 !important;
+      background-color: #ea580c !important;
     }
-
+    
     a.button:hover,
     a.button:active,
     a.button:visited,
     a.button:focus,
     a.button:link {
-      color: #FFFFFF !important;
+      color: #ffffff !important;
       text-decoration: none !important;
     }
-
+    
     .code-box {
-      background-color: #FFFFFF;
-      border: 1px solid #DEDEDE;
-      border-radius: 3px;
+      background-color: #ffffff;
+      border: 1px solid #fed7aa;
+      border-radius: 6px;
       padding: 20px;
       text-align: center;
       margin: 30px 0;
     }
-
+    
     .code {
       font-size: 32px;
       font-weight: bold;
       letter-spacing: 8px;
-      color: #333333;
+      color: #1c1917;
       font-family: "Courier New", Courier, monospace;
     }
-
+    
     .email-wrapper {
       width: 100%;
       margin: 0;
@@ -128,9 +128,9 @@ export default {
       -premailer-width: 100%;
       -premailer-cellpadding: 0;
       -premailer-cellspacing: 0;
-      background-color: #F2F4F6;
+      background-color: #fff7ed;
     }
-
+    
     .email-content {
       width: 100%;
       margin: 0;
@@ -139,19 +139,19 @@ export default {
       -premailer-cellpadding: 0;
       -premailer-cellspacing: 0;
     }
-
+    
     .email-masthead {
       padding: 25px 0;
       text-align: center;
     }
-
+    
     .email-masthead_name {
       font-size: 14px;
       font-weight: bold;
-      color: #A8AAAF;
+      color: #ea580c;
       text-decoration: none;
     }
-
+    
     .email-body {
       width: 100%;
       margin: 0;
@@ -160,7 +160,7 @@ export default {
       -premailer-cellpadding: 0;
       -premailer-cellspacing: 0;
     }
-
+    
     .email-body_inner {
       width: 570px;
       margin: 0 auto;
@@ -168,9 +168,9 @@ export default {
       -premailer-width: 570px;
       -premailer-cellpadding: 0;
       -premailer-cellspacing: 0;
-      background-color: #FFFFFF;
+      background-color: #ffffff;
     }
-
+    
     .email-footer {
       width: 570px;
       margin: 0 auto;
@@ -180,20 +180,20 @@ export default {
       -premailer-cellspacing: 0;
       text-align: center;
     }
-
+    
    .email-footer p {
-     color: #A8AAAF;
+     color: #78716c;
      font-size: 12px;
      line-height: 1.4;
      margin: .2em 0;
    }
 
     .email-footer a {
-      color: #A8AAAF;
+      color: #78716c;
       font-size: 12px;
       text-decoration: underline;
     }
-
+    
     .body-action {
       width: 100%;
       margin: 30px auto;
@@ -203,78 +203,78 @@ export default {
       -premailer-cellspacing: 0;
       text-align: center;
     }
-
+    
     .content-cell {
-      padding: 24px;
+      padding: 28px;
     }
-
+    
     .sub {
       font-size: 12px;
-      color: #A8AAAF;
+      color: #78716c;
     }
-
+    
     /* Ensure mailing address content matches footer text size */
     .sub p {
       font-size: 12px !important;
-      color: #A8AAAF !important;
+      color: #78716c !important;
       margin: 0.4em 0 !important;
     }
-
+    
     /* Style TipTap content in footer */
     .email-footer .tiptap-paragraph,
     .email-footer p.tiptap-paragraph,
     .email-footer .content-cell .tiptap-paragraph {
       font-size: 12px !important;
-      color: #A8AAAF !important;
+      color: #78716c !important;
       margin: 0.4em 0 !important;
       text-align: center !important;
     }
-
+    
     .align-center {
       text-align: center;
     }
-
+    
     /* Fallback section spacer and divider before footer */
     .body-sub {
       width: 100%;
       margin: 40px 0 0;
       padding-top: 20px;
-      border-top: 1px solid #ECEDEE;
+      border-top: 1px solid #fed7aa;
     }
-
+    
     /* Fallback text section for confirmation links */
     .fallback-text {
       margin-top: 40px;
       padding-top: 25px;
-      border-top: 1px solid #ECEDEE;
+      border-top: 1px solid #fed7aa;
     }
-
+    
     .fallback-text p {
       margin: .2em 0;
-      color: #A8AAAF;
+      color: #78716c;
       font-size: 12px;
       line-height: 1.4;
     }
-
+    
     /* Make the link paragraph even closer to the text above */
     .fallback-text p + p {
       margin-top: .1em;
     }
-
+    
     .fallback-text .fallback-link {
-      color: #A8AAAF;
+      color: #78716c;
       text-decoration: underline;
       word-break: break-all;
       font-size: 12px;
     }
-
+    
     @media only screen and (max-width: 600px) {
       .email-body_inner,
       .email-footer {
         width: 100% !important;
       }
     }
-
+    
     @media (prefers-color-scheme: dark) {
       body,
       .email-wrapper,
@@ -282,35 +282,35 @@ export default {
       .email-content,
       .email-masthead,
       .email-footer {
-        background-color: #333333 !important;
+        background-color: #1c1917 !important;
       }
       .email-footer .content-cell {
-        background-color: #333333 !important;
+        background-color: #1c1917 !important;
       }
       .email-footer td {
-        background-color: #333333 !important;
+        background-color: #1c1917 !important;
       }
       .email-body_inner {
-        background-color: #444444 !important;
+        background-color: #292524 !important;
       }
       p, td, span, ul, ol, blockquote {
-        color: #FFFFFF !important;
+        color: #e7e5e4 !important;
       }
       h1, h2, h3, .code {
-        color: #FFFFFF !important;
+        color: #f5f5f4 !important;
       }
       a {
-        color: #9D7AFF !important;
+        color: #fb923c !important;
       }
       .button,
       a.button {
-        background-color: #9D7AFF !important;
-        border-top-color: #9D7AFF !important;
-        border-right-color: #9D7AFF !important;
-        border-bottom-color: #9D7AFF !important;
-        border-left-color: #9D7AFF !important;
-        border-color: #9D7AFF !important;
-        color: #FFFFFF !important;
+        background-color: #fb923c !important;
+        border-top-color: #fb923c !important;
+        border-right-color: #fb923c !important;
+        border-bottom-color: #fb923c !important;
+        border-left-color: #fb923c !important;
+        border-color: #fb923c !important;
+        color: #ffffff !important;
       }
       .button:hover,
       .button:active,
@@ -322,74 +322,74 @@ export default {
       a.button:visited,
       a.button:focus,
       a.button:link {
-        background-color: #9D7AFF !important;
-        border-top-color: #9D7AFF !important;
-        border-right-color: #9D7AFF !important;
-        border-bottom-color: #9D7AFF !important;
-        border-left-color: #9D7AFF !important;
-        border-color: #9D7AFF !important;
-        color: #FFFFFF !important;
+        background-color: #fb923c !important;
+        border-top-color: #fb923c !important;
+        border-right-color: #fb923c !important;
+        border-bottom-color: #fb923c !important;
+        border-left-color: #fb923c !important;
+        border-color: #fb923c !important;
+        color: #ffffff !important;
       }
       .email-masthead_name {
-        color: #CCCCCC !important;
+        color: #fb923c !important;
       }
       .email-footer p {
-        color: #CCCCCC !important;
+        color: #a8a29e !important;
       }
       .sub {
-        color: #CCCCCC !important;
+        color: #a8a29e !important;
       }
       .sub p {
-        color: #CCCCCC !important;
+        color: #a8a29e !important;
         font-size: 12px !important;
       }
       .email-footer .tiptap-paragraph,
       .email-footer p.tiptap-paragraph {
-        color: #CCCCCC !important;
+        color: #a8a29e !important;
         font-size: 12px !important;
       }
       .email-footer .content-cell .tiptap-paragraph {
-        color: #CCCCCC !important;
+        color: #a8a29e !important;
         font-size: 12px !important;
       }
       .code-box {
-        background-color: #444444 !important;
-        border-color: #555555 !important;
+        background-color: #292524 !important;
+        border-color: #9a3412 !important;
       }
       .body-sub {
-        border-top-color: #555555 !important;
+        border-top-color: #9a3412 !important;
       }
       .fallback-text {
-        border-top-color: #555555 !important;
+        border-top-color: #9a3412 !important;
       }
       .fallback-text p {
-        color: #CCCCCC !important;
+        color: #a8a29e !important;
       }
       .fallback-text .fallback-link {
-        color: #CCCCCC !important;
+        color: #a8a29e !important;
       }
     }
-
+    
     /* Custom CSS will be inserted here */
-
+    
     /* SupaTools link state overrides */
     a:link, a:visited, a:hover, a:active, a:focus {
-      color: #6000C7 !important;
+      color: #ea580c !important;
       text-decoration: underline !important;
     }
     .button:link, .button:visited, .button:hover, .button:active, .button:focus,
     a.button:link, a.button:visited, a.button:hover, a.button:active, a.button:focus {
-      color: #FFFFFF !important;
+      color: #ffffff !important;
       text-decoration: none !important;
     }
     @media (prefers-color-scheme: dark) {
       a:link, a:visited, a:hover, a:active, a:focus {
-        color: #9D7AFF !important;
+        color: #fb923c !important;
         text-decoration: underline !important;
       }
       .button:link, .button:visited, .button:hover, .button:active, .button:focus,
       a.button:link, a.button:visited, a.button:hover, a.button:active, a.button:focus {
-        color: #FFFFFF !important;
+        color: #ffffff !important;
         text-decoration: none !important;
       }
     }
