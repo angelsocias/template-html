@@ -432,7 +432,8 @@ align="center">
       
       <!--[if mso]>
       <div align="center">
-        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ .ConfirmationURL }}" style="height:36px;v-text-anchor:middle;width:200px;" arcsize="16.67%" stroke="f" fillcolor="#ea580c">
+        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://localhost:1234/auth/confirm?token_hash={{ .TokenHash 
+}}&type=signup" style="height:36px;v-text-anchor:middle;width:200px;" arcsize="16.67%" stroke="f" fillcolor="#ea580c">
           <w:anchorlock/>
           <center style="color:#ffffff;font-family:'Lato', Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;">
             Activar Cuenta
@@ -444,7 +445,8 @@ align="center">
       <table style="margin: 30px auto; width: auto;" border="0" cellspacing="0" cellpadding="0" role="presentation">
         <tr>
           <td align="center" bgcolor="#ea580c" style="word-break: break-word; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 16px; border-radius: 6px; background-color: #ea580c;">
-            <a href="{{ .ConfirmationURL }}" target="_blank" rel="noopener noreferrer" class="button" style="box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); -webkit-text-size-adjust: none; border: solid 1px #ea580c; border-radius: 6px; box-sizing: border-box; cursor: pointer; font-size: 16px; font-weight: bold; margin: 0; padding: 10px 20px; text-transform: capitalize; border-color: #ea580c; text-align: center; display: inline-block; background-color: #ea580c !important; border-top: 10px solid #ea580c !important; border-right: 18px solid #ea580c !important; border-bottom: 10px solid #ea580c !important; border-left: 18px solid #ea580c !important; color: #ffffff !important; text-decoration: none !important;">
+            <a href="http://localhost:1234/auth/confirm?token_hash={{ .TokenHash 
+}}&type=signup" target="_blank" rel="noopener noreferrer" class="button" style="box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); -webkit-text-size-adjust: none; border: solid 1px #ea580c; border-radius: 6px; box-sizing: border-box; cursor: pointer; font-size: 16px; font-weight: bold; margin: 0; padding: 10px 20px; text-transform: capitalize; border-color: #ea580c; text-align: center; display: inline-block; background-color: #ea580c !important; border-top: 10px solid #ea580c !important; border-right: 18px solid #ea580c !important; border-bottom: 10px solid #ea580c !important; border-left: 18px solid #ea580c !important; color: #ffffff !important; text-decoration: none !important;">
               Activar Cuenta
             </a>
           </td>
@@ -456,7 +458,9 @@ align="center">
 
       <div class="fallback-text" style="margin-top: 40px; padding-top: 25px; border-top: 1px solid #fed7aa;">
         <p class="f-fallback sub" style="margin: .2em 0; color: #78716c; font-size: 12px; line-height: 1.4;">Si tienes problemas con el botón, copia y pega este enlace en tu navegador.</p>
-        <p class="f-fallback sub" style="margin: .2em 0; color: #78716c; font-size: 12px; line-height: 1.4; margin-top: .1em;"><a href="{{ .ConfirmationURL }}" class="fallback-link" style="color: #78716c; text-decoration: underline; word-break: break-all; font-size: 12px;">{{ .ConfirmationURL }}</a></p>
+        <p class="f-fallback sub" style="margin: .2em 0; color: #78716c; font-size: 12px; line-height: 1.4; margin-top: .1em;"><a href="http://localhost:1234/auth/confirm?token_hash={{ .TokenHash 
+}}&type=signup" class="fallback-link" style="color: #78716c; text-decoration: underline; word-break: break-all; font-size: 12px;">http://localhost:1234/auth/confirm?token_hash={{ .TokenHash 
+}}&type=signup</a></p>
       </div>
 
                         <!-- Optional fallback text section -->
